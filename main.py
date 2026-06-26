@@ -191,6 +191,6 @@ def main():
             cv2.destroyAllWindows()
 
 
-# 树莓派IP : 10.227.249.81 eualik
+# 树莓派IP :  eualik  10.194.157.81 
 if __name__ == '__main__':
     main()
