@@ -73,7 +73,7 @@ def parse_args():
 
 def main():
     """主函数：初始化摄像头和控制参数，开始跟踪和控制流程。"""
-    args = parse_args()
+    args = parse_args()         #  
 
     # --list-cameras：枚举摄像头后退出
     if args.list_cameras:
@@ -191,5 +191,6 @@ def main():
             cv2.destroyAllWindows()
 
 
+# 树莓派IP : 10.227.249.81 eualik
 if __name__ == '__main__':
     main()
