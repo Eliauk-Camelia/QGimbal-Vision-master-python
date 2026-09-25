@@ -1,4 +1,4 @@
-[![opencv](https://img.shields.io/badge/CV-OpenCV-green)]()
+﻿[![opencv](https://img.shields.io/badge/CV-OpenCV-green)]()
 [![lang](https://img.shields.io/badge/lang-Python-blue)]()
 [![license](https://img.shields.io/badge/license-MIT-lightgrey)]()
 
@@ -68,8 +68,8 @@ python main.py --camera 0 --display 0 --control 1 --print-interval 0.1
 
 ## 配套仓库
 
-- 云台固件：[QGimbal-master-stm32f4](https://github.com/Eliauk-Camelia/QGimbal-master-stm32f4)
-- 上位机：[Qdriver-python](https://github.com/Eliauk-Camelia/Qdriver-python)
+- 云台固件：[QGimbal-master-stm32f4](https://github.com/CameliaDev/QGimbal-master-stm32f4)
+- 上位机：[Qdriver-python](https://github.com/CameliaDev/Qdriver-python)
 
 ## License
 
