@@ -1,3 +1,7 @@
+[![opencv](https://img.shields.io/badge/CV-OpenCV-green)]()
+[![lang](https://img.shields.io/badge/lang-Python-blue)]()
+[![license](https://img.shields.io/badge/license-MIT-lightgrey)]()
+
 # Gimbal-vision
 
 一个简单的 OpenCV 摄像头预览 + 矩形检测示例。
@@ -60,3 +64,13 @@ python main.py --camera 0 --display 0 --control 1 --print-interval 0.1
 ```
 
 > 注意：当前 `send_rpm()` 是空实现，不会实际控制云台。你把协议写好后，只需要替换 `control/serial_stub.py` 中的发送逻辑。
+
+
+## 配套仓库
+
+- 云台固件：[QGimbal-master-stm32f4](https://github.com/Eliauk-Camelia/QGimbal-master-stm32f4)
+- 上位机：[Qdriver-python](https://github.com/Eliauk-Camelia/Qdriver-python)
+
+## License
+
+MIT © 2026 Camelia
